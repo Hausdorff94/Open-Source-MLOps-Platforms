@@ -1,0 +1,6 @@
+artifact_location: file:///workspaces/Open-Source-MLOps-Platforms/mlruns/460706163268634032
+creation_time: 1676347459255
+experiment_id: '460706163268634032'
+last_update_time: 1676347459255
+lifecycle_stage: active
+name: produce-metrics

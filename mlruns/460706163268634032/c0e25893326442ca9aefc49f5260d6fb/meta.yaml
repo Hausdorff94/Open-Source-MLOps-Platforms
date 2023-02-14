@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Open-Source-MLOps-Platforms/mlruns/460706163268634032/c0e25893326442ca9aefc49f5260d6fb/artifacts
+end_time: 1676348035693
+entry_point_name: ''
+experiment_id: '460706163268634032'
+lifecycle_stage: active
+run_id: c0e25893326442ca9aefc49f5260d6fb
+run_name: gregarious-perch-926
+run_uuid: c0e25893326442ca9aefc49f5260d6fb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1676348035616
+status: 3
+tags: []
+user_id: codespace
