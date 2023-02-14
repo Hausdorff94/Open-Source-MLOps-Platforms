@@ -76,7 +76,6 @@ Use the script `produce-metrics.py` to produce some metrics, parameters and arti
 ```bash
 MLFLOW_EXPERIMENT_ID=460706163268634032 python3 produce-metrics.py
 ```
-```
 
 #### Parameters, Version, Artifacts and Metrics
 
