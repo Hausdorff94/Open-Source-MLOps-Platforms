@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Open-Source-MLOps-Platforms/exploratory/mlruns/0/1796f2b9f6444c0cba25d961e20feaeb/artifacts
+end_time: 1676399176388
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1796f2b9f6444c0cba25d961e20feaeb
+run_name: unique-bear-828
+run_uuid: 1796f2b9f6444c0cba25d961e20feaeb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1676399131138
+status: 3
+tags: []
+user_id: codespace

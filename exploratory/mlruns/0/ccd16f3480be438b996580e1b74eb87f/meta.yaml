@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Open-Source-MLOps-Platforms/exploratory/mlruns/0/ccd16f3480be438b996580e1b74eb87f/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ccd16f3480be438b996580e1b74eb87f
+run_name: bold-sponge-798
+run_uuid: ccd16f3480be438b996580e1b74eb87f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1676398532175
+status: 1
+tags: []
+user_id: codespace

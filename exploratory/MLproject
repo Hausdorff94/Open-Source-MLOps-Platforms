@@ -1,6 +1,6 @@
 name: Data_Validation
 
-conda_env: conda_env.yml
+conda_env: conda_env.yaml
 
 entry_points:
 
