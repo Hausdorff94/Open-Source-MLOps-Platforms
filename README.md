@@ -48,3 +48,13 @@ flavors:
     loader_module: mlflow.sklearn
     pickled_model: model.pkl
 ```
+
+---
+
+### Using MLflow
+
+Run MLflow Tracking Server UI
+
+```bash
+mlflow ui --port 5000
+```
