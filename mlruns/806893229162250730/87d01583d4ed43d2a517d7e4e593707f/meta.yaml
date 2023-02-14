@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Open-Source-MLOps-Platforms/mlruns/806893229162250730/87d01583d4ed43d2a517d7e4e593707f/artifacts
+end_time: 1676350446208
+entry_point_name: ''
+experiment_id: '806893229162250730'
+lifecycle_stage: active
+run_id: 87d01583d4ed43d2a517d7e4e593707f
+run_name: mysterious-goose-977
+run_uuid: 87d01583d4ed43d2a517d7e4e593707f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1676350442264
+status: 3
+tags: []
+user_id: codespace

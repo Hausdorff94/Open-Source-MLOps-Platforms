@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Open-Source-MLOps-Platforms/mlruns/806893229162250730/2677ee12242e4247aca5fbf1d9d59bc4/artifacts
+end_time: 1676350529418
+entry_point_name: ''
+experiment_id: '806893229162250730'
+lifecycle_stage: active
+run_id: 2677ee12242e4247aca5fbf1d9d59bc4
+run_name: loud-bat-397
+run_uuid: 2677ee12242e4247aca5fbf1d9d59bc4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1676350526958
+status: 3
+tags: []
+user_id: codespace

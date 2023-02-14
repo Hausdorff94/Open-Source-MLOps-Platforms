@@ -1,0 +1,6 @@
+artifact_location: file:///workspaces/Open-Source-MLOps-Platforms/mlruns/806893229162250730
+creation_time: 1676350422594
+experiment_id: '806893229162250730'
+last_update_time: 1676350422594
+lifecycle_stage: active
+name: wine-quality-lr
