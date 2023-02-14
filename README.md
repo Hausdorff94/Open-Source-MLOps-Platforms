@@ -19,38 +19,6 @@ mlflow.log_artifact("roc.png")
 mlflow.log_artifact("model.pkl")
 ```
 
-### MLflow Projects
-
-```yaml
-name: My Project
-conda_env: conda.yaml
-entry_points:
-  main:
-    parameters:
-      data_file: path
-      regularization: {type: float, default: 0.1}
-    command: "python train.py -r {regularization} {data_file}"
-  validate:
-    parameters:
-      data_file: path
-    command: "python validate.py {data_file}"
-```
-
-### MLflow Models
-
-```yaml
-time_created: 2022-01-05T14:45:55.23
-flavors:
-  sklearn:
-    sklearn_version: 0.19.1
-    pickled_model: model.pkl
-  python_function:
-    loader_module: mlflow.sklearn
-    pickled_model: model.pkl
-```
-
----
-
 ### Using MLflow
 
 Run MLflow Tracking Server UI
@@ -88,3 +56,56 @@ mlflow experiments create -n "wine-quality-lr"
 ```bash
 MLFLOW_EXPERIMENT_ID=806893229162250730 python3 train.py
 ``` 
+
+### MLflow Projects
+
+- Create a conda environment
+
+```bash
+conda create -n exploration python=3.8
+```
+
+- Activate virtual environment
+
+```bash
+conda activate exploration
+```
+
+- Export the environment to a YAML file
+
+```bash
+conda env export --name exploration > conda_env.yml
+```
+
+
+
+```yaml
+name: My Project
+conda_env: conda.yaml
+entry_points:
+  main:
+    parameters:
+      data_file: path
+      regularization: {type: float, default: 0.1}
+    command: "python train.py -r {regularization} {data_file}"
+  validate:
+    parameters:
+      data_file: path
+    command: "python validate.py {data_file}"
+```
+
+### MLflow Models
+
+```yaml
+time_created: 2022-01-05T14:45:55.23
+flavors:
+  sklearn:
+    sklearn_version: 0.19.1
+    pickled_model: model.pkl
+  python_function:
+    loader_module: mlflow.sklearn
+    pickled_model: model.pkl
+```
+
+---
+
