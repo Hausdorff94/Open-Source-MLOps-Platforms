@@ -58,3 +58,27 @@ Run MLflow Tracking Server UI
 ```bash
 mlflow ui --port 5000
 ```
+
+Registry some metrics, parameters and artifacts
+
+```bash
+python3 test-mlflow.py
+```
+
+#### Create an experiment
+
+```bash
+mlflow experiments create -n "produce-metrics"
+```
+
+Use the script `produce-metrics.py` to produce some metrics, parameters and artifacts.
+
+```bash
+MLFLOW_EXPERIMENT_ID=460706163268634032 python3 produce-metrics.py
+```
+```
+
+#### Parameters, Version, Artifacts and Metrics
+
+Train a regression model with the wine quality dataset. Use the script `train.py` to train and log the parameters, metrics and artifacts.
+
