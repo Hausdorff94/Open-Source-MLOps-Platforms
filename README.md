@@ -81,3 +81,10 @@ MLFLOW_EXPERIMENT_ID=460706163268634032 python3 produce-metrics.py
 
 Train a regression model with the wine quality dataset. Use the script `train.py` to train and log the parameters, metrics and artifacts.
 
+```bash
+mlflow experiments create -n "wine-quality-lr"
+```
+
+```bash
+MLFLOW_EXPERIMENT_ID=806893229162250730 python3 train.py
+``` 
