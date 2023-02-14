@@ -74,7 +74,7 @@ conda activate exploration
 - Export the environment to a YAML file
 
 ```bash
-conda env export --name exploration > conda_env.yml
+conda env export --no-builds > conda_env.yaml
 ```
 
 
