@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Open-Source-MLOps-Platforms/mlruns/0/b67cfff2b6204f0284c5cecb29296c2a/artifacts
+end_time: 1676405879331
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b67cfff2b6204f0284c5cecb29296c2a
+run_name: ambitious-fox-6
+run_uuid: b67cfff2b6204f0284c5cecb29296c2a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1676405871713
+status: 3
+tags: []
+user_id: codespace

@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Open-Source-MLOps-Platforms/mlruns/0/f4ac14326f8645d1b204d8e3b2cd8256/artifacts
+end_time: 1676405814660
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f4ac14326f8645d1b204d8e3b2cd8256
+run_name: agreeable-hound-31
+run_uuid: f4ac14326f8645d1b204d8e3b2cd8256
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1676405741879
+status: 4
+tags: []
+user_id: codespace

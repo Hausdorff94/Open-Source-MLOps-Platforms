@@ -55,7 +55,13 @@ mlflow experiments create -n "wine-quality-lr"
 
 ```bash
 MLFLOW_EXPERIMENT_ID=806893229162250730 python3 train.py
-``` 
+```
+
+##### Run from git repository
+
+```bash
+mlflow run <GIT_REPOSITORY_SSH> -P <PARAMETER_1> -P <PARAMETER_2> ... -P <PARAMETER_n>
+```
 
 ### MLflow Projects
 
