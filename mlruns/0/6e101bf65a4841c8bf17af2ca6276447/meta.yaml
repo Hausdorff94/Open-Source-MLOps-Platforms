@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Open-Source-MLOps-Platforms/mlruns/0/6e101bf65a4841c8bf17af2ca6276447/artifacts
+end_time: 1676347072584
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6e101bf65a4841c8bf17af2ca6276447
+run_name: silent-bass-84
+run_uuid: 6e101bf65a4841c8bf17af2ca6276447
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1676347072565
+status: 3
+tags: []
+user_id: codespace
