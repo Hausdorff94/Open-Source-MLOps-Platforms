@@ -83,7 +83,7 @@ conda activate exploration
 conda env export --no-builds > conda_env.yaml
 ```
 
-#### MLproject yaml file
+e.g. MLproject yaml file
 
 ```yaml
 name: My Project
@@ -101,6 +101,8 @@ entry_points:
 ```
 
 ### MLflow Models
+
+e.g. MLmodel yaml file
 
 ```yaml
 time_created: 2022-01-05T14:45:55.23
