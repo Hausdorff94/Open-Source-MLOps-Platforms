@@ -83,7 +83,7 @@ conda activate exploration
 conda env export --no-builds > conda_env.yaml
 ```
 
-#### MLProject
+#### MLproject yaml file
 
 ```yaml
 name: My Project
