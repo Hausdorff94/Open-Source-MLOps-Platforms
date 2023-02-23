@@ -115,13 +115,38 @@ flavors:
     pickled_model: model.pkl
 ```
 
-Register models and retrieve them
+#### Use an existing model to register it using the API
 
 ```python
 from mlflow import MlflowClient
+import mlflow
 
 client = MlflowClient()
+mflow.set_tracking_uri("http://127.0.0.1:5000")
 client.create_registered_model("onnx-t5")
+```
+
+#### Retrieving and updating models
+
+Fetch model
+
+```python
+model_name = "onnx-t5"
+model_version = 1
+
+model = mlflow.pyfunc.load_model(
+    model_uri = f"models:/{model_name}/{model_version}"
+)
+```
+
+Update the model
+
+```python
+client.update_model_version(
+    name = "t5-small-summarizer",
+    version = 1,
+    description = "This is the T5 model in an ONNX version 1.6 using Opset 12"
+)
 ```
 
 ---
