@@ -115,5 +115,14 @@ flavors:
     pickled_model: model.pkl
 ```
 
+Register models and retrieve them
+
+```python
+from mlflow import MlflowClient
+
+client = MlflowClient()
+client.create_registered_model("onnx-t5")
+```
+
 ---
 
